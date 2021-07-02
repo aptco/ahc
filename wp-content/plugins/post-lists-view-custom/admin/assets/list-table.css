@@ -1,0 +1,41 @@
+/* All */
+
+.wp-list-table th.column-author,
+.wp-list-table th.column-categories,
+.wp-list-table th.column-tags,
+.wp-list-table th.column-comments,
+.wp-list-table th.column-date,
+.wp-list-table th#excerpt,
+.wp-list-table th.attachmentlinks,
+.wp-list-table th.column-slug,
+.wp-list-table th.column-id,
+.wp-list-table th.column-name
+{
+	width: auto;
+}
+
+
+/* Media Library */
+
+.wp-list-table th.column-icon,
+.upload-php .wp-list-table th.column-parent
+{
+	width: auto;
+}
+
+
+
+/* Comments */
+
+#comments-form .wp-list-table th.column-author,
+.wp-list-table th.column-response
+{
+	width: auto;
+}
+
+
+
+.wp-list-table th#excerpt,
+.wp-list-table th.attachmentlinks {
+	height: auto;
+}

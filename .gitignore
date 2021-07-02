@@ -1,0 +1,16 @@
+!wp-content/
+
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
+wp-content/plugins/hello.php
+wp-content/themes/twenty*/
+
+node_modules/
+
+*.log
+*.sql
+*.sqlite
+
+package-lock.json

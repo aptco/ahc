@@ -1,0 +1,24 @@
+.padding10 {
+	padding-top: 10px !important;
+}
+
+.column-volume {
+	width: 8%;
+}
+
+.acf-btn-tax {
+	margin: 5px 0 0 0;
+}
+
+.acf-gallery {
+	height: 200px !important;
+}
+
+.acf-field.narrow {
+	overflow: hidden !important;
+}
+
+.acf-field.narrow .mce-edit-area {
+	height: 200px !important;
+}
+

@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+.area.event ul.box li:hover,
+.contents-link:hover,
+.issue .btn a:hover {
+	opacity: .8
+}
+
+.issue .btn a,
+.issue .title,
+a.detail,
+h2.bar {
+	text-align: center
+}
+
+.area.event ul.box li a,
+.contents-link a,
+.issue .btn a,
+a.detail {
+	text-decoration: none
+}
+
+.area.event {
+	padding-top: 40px
+}
+
+.area.event ul.box {
+	margin-right: -2%;
+	overflow: hidden
+}
+
+.area.event ul.box li {
+	float: left;
+	width: 23%;
+	margin-right: 2%
+}
+
+.area.event ul.box li .event-img {
+	display: inline-block;
+	border: 1px solid #d2d2d2;
+	padding: 5px;
+	margin-bottom: 15px
+}
+
+.area.event ul.box li .event-img img {
+	width: 100%
+}
+
+.area.event ul.box li .date {
+	font-size: 1.4rem;
+	color: #564a31;
+	font-weight: 700;
+	display: block;
+	margin-bottom: .5em
+}
+
+.area.event ul.box li .text {
+	font-size: 1.4rem;
+	line-height: 2
+}
+
+.area.event:after {
+	content: "";
+	display: block;
+	height: 10px;
+	background: #dcdcdc;
+	background: -moz-linear-gradient(top, #dcdcdc 0, #fdfdfd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcdcdc), color-stop(100%, #fdfdfd));
+	background: -webkit-linear-gradient(top, #dcdcdc 0, #fdfdfd 100%);
+	background: -o-linear-gradient(top, #dcdcdc 0, #fdfdfd 100%);
+	background: -ms-linear-gradient(top, #dcdcdc 0, #fdfdfd 100%);
+	background: linear-gradient(to bottom, #dcdcdc 0, #fdfdfd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$start-color', endColorstr='$end-color', GradientType=0);
+	margin-top: 40px;
+	margin-bottom: 50px
+}
+
+@media only screen and (max-width:783px),
+(max-device-width:783px) {
+	.area.event ul.box {
+		margin-right: -2%;
+		margin-bottom: -20px;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-justify-content: space-between;
+		justify-content: space-between
+	}
+
+	.area.event ul.box li {
+		float: none;
+		width: 48%;
+		padding-bottom: 20px
+	}
+}
+
+.contents-link span,
+.issue .btn a,
+.issue .text,
+.issue .title {
+	display: block
+}
+
+.contents-link .img img,
+.l-banners {
+	width: 100%
+}
+
+.box-3-1 .issue .title {
+	color: #030;
+	background-color: #abf4c3
+}
+
+.box-3-3 .issue .title {
+	color: #0e2e2e;
+	background-color: #cbe3ff
+}
+
+.issue {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #c6c6c6;
+	margin-bottom: 60px
+}
+
+.issue .title {
+	background-color: #fff5cc;
+	padding: 25px;
+	line-height: 1.2;
+	font-size: 2rem;
+	color: #564a31;
+	font-weight: 700
+}
+
+.issue .text {
+	padding: 20px 30px;
+	height: 180px;
+	font-size: 1.4rem;
+	line-height: 2
+}
+
+.issue .btn {
+	margin: 0 30px 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo UI", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+	font-weight: 700
+}
+
+.issue .btn a {
+	background-color: #248bd3;
+	color: #FFF;
+	font-size: 1.6rem;
+	padding: .8em;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	border-radius: 6px
+}
+
+@media only screen and (max-width:783px),
+(max-device-width:783px) {
+	.issue {
+		margin-bottom: 0
+	}
+
+	.issue .text {
+		height: auto
+	}
+}
+
+.contents-link .title {
+	color: #FFF;
+	background: #1f4797;
+	font-size: 2.4rem;
+	letter-spacing: .5px;
+	padding: 10px;
+	font-family: "UD新ゴ R", "ヒラギノ角ゴ Pro W3", Meiryo, "メイリオ", sans-serif !important
+}
+
+.contents-link .img {
+	margin-bottom: 12px;
+	height: 147px;
+	overflow: hidden
+}
+
+.contents-link .img.no-img img {
+	margin-top: -20px
+}
+
+.contents-link .text {
+	font-size: 1.4rem;
+	line-height: 2;
+	margin-bottom: 40px
+}
+
+@media only screen and (max-width:783px),
+(max-device-width:783px) {
+	.contents-link .text {
+		margin-bottom: 0
+	}
+}
+
+.l-banners,
+.l-banners li:not(:last-child),
+h2 {
+	margin-bottom: 20px
+}
+
+.l-banners li img.sp {
+	display: none;
+	width: 100%;
+	border: none
+}
+
+@media only screen and (max-width:783px),
+(max-device-width:783px) {
+	.l-banners li img.pc {
+		display: none
+	}
+
+	.l-banners li img.sp {
+		display: block
+	}
+}
+
+.s-banner {
+	border: 1px solid #d2d2d2;
+	padding: 10px;
+	margin-top: 20px
+}
+
+.s-banner img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px
+}
+
+.s-banner .text {
+	display: inline-block;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5
+}
+
+.area.news {
+	background-color: #f4f1ea;
+	padding: 60px 0 0
+}
+
+.area.sns {
+	padding: 40px 0
+}
+
+@media only screen and (max-width:783px),
+(max-device-width:783px) {
+	.s-banner {
+		margin-top: 0
+	}
+
+	.area.sns {
+		display: none
+	}
+}
+
+.home #content {
+	padding: 20px 0 60px
+}
+
+h2 {
+	color: #564a31;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo UI", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important;
+	font-size: 24px;
+	font-size: 2.4rem
+}
+
+h2.bar {
+	background: url(../images/top/h2_bg.png) center center no-repeat;
+	font-size: 24px;
+	font-size: 2.4rem;
+	margin-bottom: 35px
+}
+
+a.detail {
+	width: 100%;
+	color: #fff;
+	font-size: 15px;
+	font-size: 1.5rem;
+	margin-top: 20px;
+	padding: 11px 0 9px;
+	display: inline-block;
+	line-height: 100%;
+	font-weight: 700;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border-bottom: 3px solid;
+	background: #564a31;
+	border-color: #45381e
+}
+
+#sub_content {
+	background-color: #f9f8f4;
+	padding: 60px 0
+}
+
+#sub_content .faq,
+#sub_content .news {
+	position: relative
+}
+
+#sub_content a.detail_btn {
+	position: absolute;
+	right: 0;
+	top: -5px
+}
+
+#faq,
+#news {
+	position: relative
+}
